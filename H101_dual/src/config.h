@@ -132,7 +132,7 @@
 #define RATES CH_EXPERT
 
 // level / acro mode switch
-#define LEVELMODE CH_AUX1
+#define LEVELMODE CH_RLL_TRIM
 
 // channel for inverted mode ( default - CH_AUX3 - gravity based)
 #define INVERTEDMODE CH_AUX3
@@ -164,7 +164,7 @@
 
 // comment out if not using ( disables trim as channels, will still work with stock tx except that feature )
 // devo/tx module incompatible
-//#define USE_STOCK_TX
+#define USE_STOCK_TX
 
 // automatically remove center bias ( needs throttle off for 1 second )
 //#define STOCK_TX_AUTOCENTER
