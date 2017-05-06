@@ -35,13 +35,18 @@ sudo apt-get install openocd
 ## Toolchain Install and Build
 
 Run the following to install the necessary build tools:
+### Ubuntu / Debian
 ```
 apt-get install git build-essential gcc-arm-none-eabi libnewlib-arm-none-eabi
 ```
+### Fedora
+```
+dnf install git arm-none-eabi-gcc-cs arm-non-eabi-gcc-cs-c++ arm-none-eabi-newlib
+```
 Clone the repository:
 ```
-git clone https://github.com/silver13/h8mini-testing
-cd h8mini-testing
+git clone https://github.com/silver13/h101-dual
+cd h101-dual
 ```
 Build the firmware:
 ```
