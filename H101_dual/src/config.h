@@ -132,7 +132,7 @@
 #define RATES CH_EXPERT
 
 // level / acro mode switch
-#define LEVELMODE CH_RLL_TRIM
+#define LEVELMODE CH_FLIP
 
 // channel for inverted mode ( default - CH_AUX3 - gravity based)
 #define INVERTEDMODE CH_AUX3
