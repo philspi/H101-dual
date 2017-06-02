@@ -56,7 +56,7 @@
 //#define NATIVE_INVERTED_MODE
 
 // 3d throttle - center off
-//#define THREE_D_THROTTLE
+#define THREE_D_THROTTLE
 
 // deadzone in center of 3d throttle 0.0 - 1.0
 #define THREE_D_THROTTLE_DEADZONE 0.2
@@ -135,7 +135,7 @@
 #define LEVELMODE CH_FLIP
 
 // channel for inverted mode ( default - CH_AUX3 - gravity based)
-#define INVERTEDMODE CH_AUX3
+#define INVERTEDMODE CH_OFF
 
 // leds on / off channel
 #define LEDS_ON CH_ON
@@ -164,7 +164,7 @@
 
 // comment out if not using ( disables trim as channels, will still work with stock tx except that feature )
 // devo/tx module incompatible
-#define USE_STOCK_TX
+//#define USE_STOCK_TX
 
 // automatically remove center bias ( needs throttle off for 1 second )
 //#define STOCK_TX_AUTOCENTER
